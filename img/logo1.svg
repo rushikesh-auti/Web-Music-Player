@@ -1,0 +1,12 @@
+<svg width="320" height="150" viewBox="0 0 320 150" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Music Icon Box (Black) -->
+  <rect x="20" y="25" width="100" height="100" rx="20" fill="#000000"/>
+  <path d="M40 65C60 55 95 55 110 65" stroke="white" stroke-width="5" stroke-linecap="round"/>
+  <path d="M40 80C60 70 95 70 110 80" stroke="white" stroke-width="5" stroke-linecap="round"/>
+  <path d="M40 95C60 85 95 85 110 95" stroke="white" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="50" cy="110" r="6" fill="white"/>
+  <rect x="53" y="90" width="5" height="20" fill="white" rx="1"/>
+
+  <!-- Bold MUSIC Text with Spotify-style font -->
+  <text x="140" y="100" font-size="42" font-weight="bold" font-family="Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif" fill="#000000" letter-spacing="1">MUSIC</text>
+</svg>

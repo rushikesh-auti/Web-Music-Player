@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Log In</title>
+  <link rel="stylesheet" href="css/login.css" />
+
+</head>
+<body>
+
+  <!-- Login Box -->
+  <div class="login-container" id="loginBox">
+    <button class="close-btn" id="closeLogin">&times;</button>
+
+    <img src="img/logo1.svg" alt="Logo" class="logo" />
+    <h2>Log in to Music</h2>
+
+    <form class="login-form">
+      <label for="email">Email or username</label>
+      <input type="text" id="email" name="email" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required />
+
+      <div class="options">
+        <label class="remember">
+          <input type="checkbox" /> Remember me
+        </label>
+        <a href="#" class="forgot-password">Forgot your password?</a>
+      </div>
+
+      <button type="submit">Log In</button>
+    </form>
+
+    <div class="divider"><span>OR</span></div>
+
+    <div class="alt-login">
+      <button class="google">Continue with Google</button>
+      <button class="facebook">Continue with Facebook</button>
+      <button class="apple">Continue with Apple</button>
+    </div>
+
+    <p class="signup-link">Don't have an account? <a href="#">Sign up for Music</a></p>
+  </div>
+  <script>
+  // Login form handler
+  document.querySelector('.login-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+
+    if (email === "test@spotify.com" && password === "123456") {
+      alert("Login successful!");
+      window.location.href = "dashboard.html";
+    } else {
+      alert("Invalid email or password");
+    }
+  });
+
+  // Cancel button - redirect to index.html
+  document.getElementById("closeLogin").addEventListener("click", function() {
+    window.location.href = "index.html"; // Go back to homepage
+  });
+</script>
+
+</body>
+</html>
