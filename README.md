@@ -26,8 +26,8 @@ To see the player in action, simply open `index.html` in your browser.
 ## Project Structure
 Web-Music-Player/
 ├── css/
-│   └── style.css
-    └── login.css
+│   └── login.css
+    └── style.css
     └── utility.css
 ├── img/
 │   └── (UI images and assets)
@@ -39,4 +39,4 @@ Web-Music-Player/
 └── login.html 
 
 ## Author 
-Developed by Rushikesh Auti
+Rushikesh Auti
