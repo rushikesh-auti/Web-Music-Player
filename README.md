@@ -27,6 +27,8 @@ To see the player in action, simply open `index.html` in your browser.
 Web-Music-Player/
 ├── css/
 │   └── style.css
+    └── login.css
+    └── utility.css
 ├── img/
 │   └── (UI images and assets)
 ├── js/
@@ -34,7 +36,7 @@ Web-Music-Player/
 ├── songs/
 │   └── (audio files in .mp3 format)
 ├── index.html
-└── login.html (optional)
+└── login.html 
 
 ## Author 
 Developed by Rushikesh Auti
