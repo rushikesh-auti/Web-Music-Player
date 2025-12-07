@@ -17,11 +17,6 @@ To see the player in action, simply open `index.html` in your browser.
 ##  Getting Started
 ###  Prerequisites
 - A modern web browser (Chrome, Firefox, Edge, Safari, etc.)
-
-###  Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/rushikesh-auti/Web-Music-Player.git
    
 ## Project Structure
 Web-Music-Player/
