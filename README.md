@@ -17,7 +17,8 @@ To see the player in action, simply open `index.html` in your browser.
 ##  Getting Started
 ###  Prerequisites
 - A modern web browser (Chrome, Firefox, Edge, Safari, etc.)
-   
+
+```
 ## Project Structure
 Web-Music-Player/
 ├── css/
@@ -31,7 +32,8 @@ Web-Music-Player/
 ├── songs/
 │   └── (audio files in .mp3 format)
 ├── index.html
-└── login.html 
+└── login.html
+```
 
 ## Author 
 Rushikesh Auti
